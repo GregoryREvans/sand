@@ -4,5 +4,6 @@
 *.log
 *.gz
 *.png
+*.wav
 __images__
 __pycache__
