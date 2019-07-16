@@ -784,5 +784,5 @@ for count, staff in enumerate(
 time_6 = time.time()
 parts_time = time_6 - time_5
 open(f"{directory}/.optimization", "a").writelines(
-    f"{datetime.datetime.now()}\nSegment runtime: {int(round(segment_time))} seconds \nAbjad/Lilypond runtime: {int(round(abjad_time))} seconds \nParts extraction runtime: {parts_time} seconds \n\n"
+    f"{datetime.datetime.now()}\nSegment runtime: {int(round(segment_time))} seconds \nAbjad/Lilypond runtime: {int(round(abjad_time))} seconds \nParts extraction runtime: {int(round(parts_time))} seconds \n\n"
 )
